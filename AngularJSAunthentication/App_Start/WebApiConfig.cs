@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net.Http.Formatting;
 using System.Web.Http;
 
-namespace AngularJSAunthentication.API
+namespace BaseWebApi.API
 {
     public static class WebApiConfig
     {

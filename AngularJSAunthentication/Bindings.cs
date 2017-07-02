@@ -1,11 +1,12 @@
-﻿using AngularJSAunthentication.API.Interfaces;
+﻿using BaseWebApi.Auth.Interfaces;
+using BaseWebApi.Auth.Repositories;
 using Ninject.Modules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace AngularJSAunthentication.API
+namespace BaseWebApi.API
 {
     public class Bindings : NinjectModule
     {

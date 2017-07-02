@@ -1,4 +1,4 @@
-﻿using AngularJSAunthentication.API.Providers;
+﻿using BaseWebApi.Auth.Providers;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
@@ -8,10 +8,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 
-[assembly: OwinStartup(typeof(AngularJSAunthentication.API.Startup))]
-namespace AngularJSAunthentication.API
+[assembly: OwinStartup(typeof(BaseWebApi.API.pleeease.Startup2))]
+namespace BaseWebApi.API.pleeease
 {
-    public class Startup
+    public class Startup2
     {
         public void Configuration(IAppBuilder app)
         {
