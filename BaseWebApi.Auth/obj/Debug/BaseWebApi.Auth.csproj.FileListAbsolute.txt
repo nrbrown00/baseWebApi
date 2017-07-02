@@ -56,3 +56,4 @@ D:\git\BaseWebApi\BaseWebApi.Auth\bin\System.Web.Http.xml
 D:\git\BaseWebApi\BaseWebApi.Auth\bin\System.Web.Http.WebHost.xml
 D:\git\BaseWebApi\BaseWebApi.Auth\obj\Debug\BaseWebApi.Auth.dll
 D:\git\BaseWebApi\BaseWebApi.Auth\obj\Debug\BaseWebApi.Auth.pdb
+D:\git\BaseWebApi\BaseWebApi.Auth\obj\Debug\BaseWebApi.Auth.csprojResolveAssemblyReference.cache
