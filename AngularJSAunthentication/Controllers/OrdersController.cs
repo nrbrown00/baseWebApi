@@ -4,20 +4,32 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Description;
 
 namespace BaseWebApi.API.Controllers
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [RoutePrefix("api/Orders")]
     public class OrdersController : ApiController
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         [Authorize]
         [Route("")]
+        [ResponseType(typeof(Order))]
         public IHttpActionResult Get ()
         {
             return Ok(Order.CreateOrders());
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public class Order
     {
         public int OrderID { get; set; }

@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
+using Swashbuckle;
 
 [assembly: OwinStartup(typeof(BaseWebApi.API.pleeease.Startup2))]
 namespace BaseWebApi.API.pleeease
@@ -22,6 +23,7 @@ namespace BaseWebApi.API.pleeease
             WebApiConfig.Register(config);
             app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
             app.UseWebApi(config);
+            SwaggerConfig.Register(config);
         }
 
         public void ConfigureOAuth(IAppBuilder app)
